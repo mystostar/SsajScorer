@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ssaj Scorer</string>
+    <string name="title_activity_rules">Règles</string>
+    <string name="title_activity_game">Partie</string>
+    <string name="rulesAB">Règles</string>
+    <string name="rules">\nLes règles pour savoir qui gagne les cartes, comment elles sont distribuées etc. sont les mêmes que celles du jass.\n\nLe but du jeu est de gagner le moins de points possible. Voici comment on compte les points:\nLors de la première manche, chaque plie ramassée donne 5 points.\nDans la seconde manche, chaque coeur vaut 10 points.\nDans la troisième manche, chaque dame vaut 20 points.\nDans la quatrième manche, celui qui gagne le roi de trèfle reçoit 50 points.\nDans la cinquième manche, toutes ces règles sont mélangées.\nEnsuite ça recommence avec les plies et ainsi de suite.\n\nBonne chance!</string>
+    <string name="resume">Continuer</string>
+    <string name="player4">Joueur 4</string>
+    <string name="player3">Joueur 3</string>
+    <string name="player2">Joueur 2</string>
+    <string name="player1">Joueur 1</string>
+    <string name="new_game">Nouvelle partie</string>
+    <string name="sendData">OK</string>
+    <string name="requestInput">Entrez les noms des joueurs</string>
+    <string name="queens">Dames</string>
+    <string name="king">Roi de trèfle</string>
+    <string name="hearts">Cœurs</string>
+    <string name="folds">Plies</string>
+    <string name="all">Tout à la fois</string>
+    <string name="clubs">Atout trèfle</string>
+    <string name="diamonds">Atout carreau</string>
+    <string name="spades">Atout pique</string>
+    <string name="heartsTrumps">Atout cœur</string>
+    <string name="settings">Règlages</string>
+</resources>

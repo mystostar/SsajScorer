@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mystostar.ssajscorer.GameActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#ffffff">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <TableRow
+            android:background="#ffffff"
+            android:layout_width="match_parent">
+        <TableLayout
+            android:background="@drawable/border_button"
+            android:layout_marginBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoresTable">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#ffffff">
+                <TextView
+                    android:background="#ffffff"
+                    android:id="@+id/player1Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/player1"
+                    android:gravity="center"/>
+                <TextView
+                    android:background="#ffffff"
+                    android:id="@+id/player2Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/player2"
+                    android:gravity="center"/>
+                <TextView
+                    android:background="#ffffff"
+                    android:id="@+id/player3Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/player3"
+                    android:gravity="center"/>
+                <TextView
+                    android:background="#ffffff"
+                    android:id="@+id/player4Cell"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/player4"
+                    android:gravity="center"/>
+           </TableRow>
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/scoreTot1"
+                    android:background="#ffffff"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/scoreTot2"
+                    android:background="#ffffff"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/scoreTot3"
+                    android:background="#ffffff"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/scoreTot4"
+                    android:background="#ffffff"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/border_button"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/round"
+            android:layout_width="0dp"
+            android:textSize="10pt"
+            android:textColor="#eb7d1b"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"/>
+
+    </TableRow>
+
+        <TableRow
+            android:background="@drawable/border_button"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/trumps"
+                android:layout_width="0dp"
+                android:textSize="10pt"
+                android:textColor="#eb7d1b"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"/>
+
+        </TableRow>
+
+    <TableRow
+        android:background="#ffffff"
+        android:layout_marginTop="13dp">
+        <EditText
+            android:hint="0"
+            android:inputType="number"
+            android:layout_margin="1dp"
+            android:textColor="#606060"
+            android:gravity="center"
+            android:background="@drawable/border_edit"
+            android:shadowColor="#a0a0a0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/addScoreP1"
+            android:layout_weight="1" />
+        <EditText
+            android:hint="0"
+            android:inputType="number"
+            android:layout_margin="1dp"
+            android:textColor="#606060"
+            android:gravity="center"
+            android:background="@drawable/border_edit"
+            android:shadowColor="#a0a0a0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/addScoreP2"
+            android:layout_weight="1" />
+        <EditText
+            android:hint="0"
+            android:inputType="number"
+            android:layout_margin="1dp"
+            android:textColor="#606060"
+            android:gravity="center"
+            android:background="@drawable/border_edit"
+            android:shadowColor="#a0a0a0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/addScoreP3"
+            android:layout_weight="1" />
+        <EditText
+            android:hint="0"
+            android:inputType="number"
+            android:layout_margin="1dp"
+            android:textColor="#606060"
+            android:gravity="center"
+            android:background="@drawable/border_edit"
+            android:shadowColor="#a0a0a0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/addScoreP4"
+            android:layout_weight="1" />
+
+
+
+    </TableRow>
+
+        <TableRow
+            android:background="#ffffff">
+            <Button
+                android:background="@drawable/border_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp"
+                android:text="@string/sendData"
+                android:textColor="#eb7d1b"
+                android:onClick="buttonSendData"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

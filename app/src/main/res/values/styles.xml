@@ -1,0 +1,13 @@
+<resources tools:targetApi="21" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <item name="android:colorPrimary">#ce6a12</item>
+        <item name="android:statusBarColor">#a9570f</item>
+        <item name="android:background">#ce6a12</item>
+        <item name="android:textColor">#070707</item>
+        <item name="android:textColorHint">#a0a0a0</item>
+    </style>
+
+</resources>
